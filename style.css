@@ -62,6 +62,7 @@ body {
     padding: 30px;
 
 }
+
 .banner-title {
     flex: 1;
 }
@@ -115,16 +116,128 @@ body {
     border: 1px solid #0F0E0E1A;
 }
 
+/* 3rd section */
+
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card img, .trendy-product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.trendy-product-card{
+  height: 350px;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  padding: 32px;
+  background-color: #f8c3f16b;
+
+}
+
+.trendy-product-card h2{
+   font-size: 28px; 
+   font-weight: 800;
+   color: #0F0E0E;
+   text-align: center;
+}
+.product-card-button{
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color:  #693AF8;
+    padding: 16px 32px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: 1px solid #0F0E0E1A;
+    width: 100%;
+}
+.product-card{
+   height: 350px;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  padding: 32px;
+  background-color: #f5e4e0;
+  
+}
+.product-card h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.product-prics{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+}
+.product-prics p{
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+.product-prics del{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive design */
 @media screen and (max-width:600px) {
-    .banner-section{
+    .banner-section {
         flex-direction: column-reverse;
+        gap: 10px;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 90%;
     }
-    .banner-main-section{
+
+    .banner-main-section {
         margin: 16px;
     }
+
+    .banner-title h2 {
+        font-size: 32px;
+    }
+
+    .banner-btn {
+        padding: 20px;
+    }
+
+    .product-btn {
+        padding: 20px;
+    }
+
+    .banner-buttons {
+        gap: 15px;
+    }
+
+.product-cards{
+   grid-template-columns: repeat(1, 1fr); 
+   margin: 0 16px;
+}
+
 }
