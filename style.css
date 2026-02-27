@@ -377,12 +377,14 @@ border: 1px solid aquamarine;
     border: 1px solid  #693af8;
     width: 100%;
     margin-top: 10px;
+    background-color: white;
    
 }
 
 .buy-now:hover{
     background-color: #693af8;
-    color: #0F0E0E;
+    color: white;
+    
 }
 .featured-product-card-price p span{
 font-size: 16px;
@@ -391,6 +393,13 @@ color: #0F0E0EB2;
 }
 
 /* 6th section */
+.flash-deals{
+    background-color: #ececec;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+
 .time{
     display: flex;
     align-items: center;
@@ -418,6 +427,9 @@ justify-content: space-between ;
     gap: 5px;
     background-color: white;
 
+}
+.flash-deal-btn:hover{
+    background-color: #693af8;
 }
 .porend{
     font-size: 24px;
@@ -464,6 +476,133 @@ justify-content: space-between ;
     background-color: white;
 
 }
+.flash-deals-card{
+    border: 2px solid red;
+    flex: 1;
+    padding: 20px;
+    border-radius: 24px;
+   
+}
+
+.flash-deals-cards{
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+.flash-deals-card-img img{
+    border-radius: 16px;
+    background-color: #0F0E0E0D;
+   width: 90%;
+    object-fit: contain; 
+    margin: 10px 16px;
+    
+}
+.flash-deals-card{
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+   
+}
+
+.flash-deals-card h2{
+   font-size: 20px;
+   font-weight: 800;
+   color: #0F0E0E; 
+}
+.flash-deals-card h3{
+ font-size: 16px;
+ font-weight: 500;
+ color: #0F0E0E;  
+}
+.flash-deals-card p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0F0E0E;
+}
+
+.flash-like {
+    
+    width: 65px;
+    height: 45px;
+    border: 1px solid #1B1B1B1A;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.flash-like:hover{
+    border: 1px solid cornflowerblue;
+}
+
+.flash-like div{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #1B1B1B1A;
+    border-radius: 100%;
+
+}
+.flash-like-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.like{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* 7th section */
+.seller-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.seller-button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 25px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: 1px solid #0F0E0E1A;
+   
+}
+.seller-button:hover{
+    background-color: #e35515;
+}
+.seller-buttons{
+    display: flex;
+    gap: 10px;
+}
+.seller-btn div h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F0E0E;
+}
+.best-seller{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
