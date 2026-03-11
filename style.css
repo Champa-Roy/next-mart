@@ -557,10 +557,20 @@ justify-content: space-between ;
 .like{
     font-size: 18px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10PX;
 }
 
 
 /* 7th section */
+
+.best-sellers{
+    background-color: #ececec;
+    margin: 20px 0;
+    padding: 20px;  
+}
+
 .seller-btn{
     display: flex;
     align-items: center;
@@ -588,11 +598,150 @@ justify-content: space-between ;
     font-weight: 800;
     color: #0F0E0E;
 }
+.Headphones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+
+
 .best-seller{
     display: flex;
     align-items: center;
-    gap: 10px;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 20px;
+    
+
+
 }
+.headphone-img  img{
+    border-radius: 16px;
+    background-color: #0F0E0E0D;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.headphone-seller h2{
+font-size: 25PX;
+font-weight: 700;
+color: #0F0E0E;
+}
+.headphone-seller P{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F0E0E;
+}
+.headphone-seller span{
+    font-size: 18PX;
+    font-weight: 600;
+    color: #0F0E0E;
+}
+.Price{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 65px;
+    height: 45px;
+    border: 1px solid #1B1B1B1A;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 5px; 
+}
+.icon:hover{
+    border: 1px solid cornflowerblue;
+}
+.icon-button{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+}
+
+/* 8th section */
+.top-brand{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-brand-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F0E0E;
+    padding: 17px 32px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: 1px solid #0F0E0E1A;
+    width: fit-content;
+    height: fit-content; 
+}
+.top-brand-btn:hover{
+    background-color: #693af8;
+}
+.top-brand h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F0E0E;
+}
+
+.brand-card{
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+   
+     
+}
+.brand-card h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #003985;
+    background-color: #0F0E0E0D;
+    border-radius: 10px;
+    width: 100%;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.brand-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.top-brand-cards{
+    background-color: #ececec;
+    margin: 20px 0;
+    padding: 20px;  
+   
+}
+
+/* 9th section */
+
+.Onsale-product{
+display: flex;
+justify-content: space-around;
+}
+
+
+
+
+
+
 
 
 
