@@ -732,14 +732,51 @@ color: #0F0E0E;
 
 /* 9th section */
 
-.Onsale-product{
-display: flex;
-justify-content: space-around;
+.onsale-section{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+
+}
+.onsale-product-card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.onsale-product-card-img{
+width: 40%;
+padding: 10px;
+
 }
 
-
-
-
+.onsale-product-card-img img{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ececec;
+    height: 120px;
+    object-fit: contain;
+    
+    
+}
+.onsale-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.onsale-card-contant h2{
+    font-size: 20px;
+    color: #0F0E0E;
+    margin-top: -10px;
+}
+.onsale-icon p , .onsale-card-contant span{
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
@@ -826,7 +863,28 @@ margin: 0 auto;
 }
 .featured-btn{
  padding: 10px 10px;
-  
-  
 }
+.flash-deals-cards{
+    flex-direction: column;
+}
+.flash-deal-button , .deal-button{
+    display: none;
+}
+.Headphones{
+    grid-template-columns: repeat(1, 1fr);
+}
+.best-seller{
+    flex-direction: column;
+}
+.seller-buttons{
+    display: none;
+}
+.brand-cards{
+     grid-template-columns: repeat(1, 1fr);
+}
+.onsale-section{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+}
+
 }
